@@ -13,6 +13,8 @@ let tab = [
   [[0], [1], [2], [1]],
 ]
 
+console.log(tab.flat(2).reduce((p, c) => { return p + c }))
+
 let x = 0
 
 for (const elem of tab) {
